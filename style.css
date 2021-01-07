@@ -1,0 +1,149 @@
+.fullBody{
+    margin: 60px 120px;
+    font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.menubar{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.menubar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+.menubar li {
+    margin-right: 40px;
+  }
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.firstDet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello, .about{
+    line-height: 100%;
+}
+.name{
+    color: #FF8367;
+}
+.hireBtn{
+    color: white;
+    background-color: #FF8367;
+    padding: 20px 60px ;
+    border: none;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.firstImg{
+    display: flex;
+    justify-content: center;
+}
+.firstImg img{
+    width: 400px;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.secondDet{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.cvBtn{
+    color: white;
+    background-color: #FF8367;
+    padding: 20px 60px ;
+    border: none;
+    border-radius: 5px;
+}
+
+.sec3{
+    margin-top: 100px;
+    margin-left: -120px;
+    margin-right: -120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(237, 246, 250);
+    padding: 20px;
+}
+.latest{
+    color: #FF8367;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 2.5vh;
+    text-align: left;
+    padding: 10px;
+}
+.card img{
+    width: 300px;
+}
+.cardIn:hover{
+    box-shadow: 10px 10px 10px lightgrey;
+}
+.cardIn{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cardIn img:hover{
+    width: 100%;
+    position: relative;
+    box-shadow: 10px 10px 10px lightgrey;
+}
+.sec4{
+    margin: 100px 250px;
+}
+.inquiry{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("shapes/Group_33094_1.png");
+    height: 25vh;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    background-position: center;
+}
+.chatBtn{
+    color: white;
+    background-color: #FF8367;
+    padding: 20px 60px ;
+    border: none;
+    border-radius: 5px;
+}
+.sec5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.sec5 img{
+    width: 40px;
+}
+
+
+.hireBtn:hover, .cvBtn:hover, .chatBtn:hover{
+    cursor: pointer;
+    background-color: #ee7257;
+}
